@@ -1,2 +1,18 @@
-# MC-zombie-AI-improve
-Zombie AI for Forge 1.20.1: zombies seek ladders/vines to climb when the target is unreachable (no block breaking)     Minecraft Forge 1.20.1 僵尸 AI：在目标不可达或隔墙时主动寻找梯子/藤蔓攀爬追击（无破坏方块）
+#Zombie AI (Forge 1.20.1)
+
+一个用于 **Minecraft 1.20.1 Forge** 的“僵尸爬梯子”模组：  
+当僵尸追击目标时，如果 **路径不可达 / 只能到目标脚下 / 隔墙相望无法接近**，它会 **主动搜索附近梯子/藤蔓等可攀爬方块并攀爬翻越**，而不是卡在墙角原地发呆。
+
+> 不破坏地形，不搭方块，不挖方块 
+> 适用于末日生存类整合包  
+> 支持原版梯子/藤蔓（可扩展到自定义可攀爬方块）
+
+## 版本(没试过，其实应该大部分都行)
+- Minecraft: **1.20.1**
+- Mod Loader: **Forge**（建议与 1.20.1 对应的稳定版）
+- Java: **17**
+- 客户端/服务端：**均可安装**(推荐两端一致)
+
+```bash
+# Windows
+gradlew build
